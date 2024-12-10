@@ -1,0 +1,92 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  hr {
+    margin: 1rem 0;
+    border: none;
+    height: 2px;
+    background: #ddd;
+  }
+  
+  h2 {
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 1.5rem;
+  }
+  
+  li {
+    background: #f8f8f8;
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  li:hover {
+    background: #e0e0e0;
+  }
+  
+  button {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  .index {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+
+  .correct{
+    background: #dffff2;
+    border-color: #00d397;
+  }
+
+  .Wrong{
+    background: #FFEBEB;
+    border-color: #FF4A4A;
+  }
